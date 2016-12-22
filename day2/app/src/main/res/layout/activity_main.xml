@@ -10,26 +10,26 @@
     android:orientation="vertical"
     tools:context="com.example.littlematwo.MainActivity">
 
-    <EditText
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="year"
         android:id="@+id/yesr_et"
-        android:inputType="number"
+        android:entries="@array/year"
         />
-    <EditText
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="month"
         android:id="@+id/month_et"
-        android:inputType="number"
+        android:entries="@array/month"
         />
-    <EditText
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="day"
         android:id="@+id/day_et"
-        android:inputType="number"
+        android:entries="@array/day"
         />
     <Button
         android:layout_width="match_parent"

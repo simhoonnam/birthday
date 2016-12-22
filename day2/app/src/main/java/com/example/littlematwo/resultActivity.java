@@ -40,8 +40,7 @@ public class resultActivity extends AppCompatActivity {
     }
 
     private void checkC(int ci) {
-        switch (c
-        i) {
+        switch (ci) {
             case 1:
                 res.append("미인대회 탈락자");
                 break;
