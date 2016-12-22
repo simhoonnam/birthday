@@ -53,7 +53,9 @@ public class resultActivity extends AppCompatActivity {
             case 4:
                 res.append("게이");
                 break;
-            case 5: break;
+            case 5:
+                res.append("은솔이");
+                break;
             case 6: break;
             case 7: break;
             case 8: break;
